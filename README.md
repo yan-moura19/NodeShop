@@ -153,7 +153,7 @@ Retorna
 ### 5 - Conclusão e avaliação do meu desempenho no projeto
 
 * Enfrentei alguns problemas (De CORS), mas consegui resolver.
-* Adcionei a tela de login, para ficar uma aplicação mais "robusta".
-* A validação de token não foi aplicada em nenhum metodo, foi apenas uma demonstração.
+* Adcionei a tela de login para aumentar a "realidade" da aplicação.
+* A validação de token não foi aplicada em nenhum método, foi apenas uma demonstração.
 * Tive um bom resultado e tentei deixar a aplicação mais intuitiva possível e a documentação (README) mais objetiva e clara possivel.
 * Adquiri novas experiências e aumentei a capacidade de resolução de problemas.
