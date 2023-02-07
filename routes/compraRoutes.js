@@ -4,8 +4,8 @@ const Compra = require('../models/Compra')
 
 router.post('/', async (req, res) => {
     const {usuario, produtos, valor} = req.body
-    console.log(req.body);
-    console.log(usuario, produtos, valor);
+    //.log(req.body);
+    //console.log(usuario, produtos, valor);
     if(!usuario){
         return res.status(404).json({msg : "O usuario é obrigatório"})
     }
