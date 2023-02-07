@@ -3,8 +3,10 @@ const express = require('express')
 const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
+var cors = require('cors')
 
 const app = express()
+app.use(cors())
 
 app.use(express.json())
 
@@ -141,11 +143,11 @@ app.post('/auth/register', async(req,res) => {
 })
 
 
-
+mongoose.set('strictQuery', false);
 mongoose.connect(`mongodb+srv://${dbuser}:${dbpass}@cluster0.cgpljyi.mongodb.net/?retryWrites=true&w=majority`)
         .then(()=>{
             app.listen(3030)
-            console.log("Conectou ao banco!")
+            console.log("Conectou ao banco! porta 3030r")
 
         })
         .catch((error) => console.log(error))
