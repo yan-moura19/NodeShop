@@ -8,6 +8,7 @@
 * 4 - Requisitos do projeto
 * 5 - Conclusão e avaliação do meu desempenho no projeto
 
+Obs: o MongoDB pode não aceitar o IP da sua máquina
 
  [Clique aqui para ver o Front utilizado nesse projeto](https://github.com/yan-moura19/NodeShopFront)
 
