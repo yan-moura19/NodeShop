@@ -161,3 +161,5 @@ Retorna
 * A validação de token não foi aplicada em nenhum método, foi apenas uma demonstração.
 * Tive um bom resultado e tentei deixar a aplicação mais intuitiva possível e a documentação (README) mais objetiva e clara possivel.
 * Adquiri novas experiências e aumentei a capacidade de resolução de problemas.
+* Desenvolvi novas habilidades e conhecimento em Flutter e Node Js
+* Fiz a aplicação em um curto espaço de tempo, geralmente no Fim de semana. Poderia ter refatorado mais e implemntado alguns detalhes. No entanto, cumpri com os requisitos. 
