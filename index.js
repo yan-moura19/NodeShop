@@ -146,7 +146,7 @@ app.post('/auth/register', async(req,res) => {
 mongoose.set('strictQuery', false);
 mongoose.connect(process.env.URL_BD)
         .then(()=>{
-            app.listen(3030)
+            app.listen(process.env.SERVER_PORT)
             console.log("Conectou ao banco! porta 3030r")
 
         })
