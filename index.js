@@ -42,7 +42,7 @@ function checkToken(req, res , next){
     }
     
     try{
-        const secret =  process.env.SECRET
+        const secret =  "dadsafa"
 
         jwt.verify(token, secret)
         next()
@@ -144,7 +144,7 @@ app.post('/auth/register', async(req,res) => {
 
 
 mongoose.set('strictQuery', false);
-mongoose.connect(`mongodb+srv://${dbuser}:${dbpass}@cluster0.cgpljyi.mongodb.net/?retryWrites=true&w=majority`)
+mongoose.connect(process.env.URL_BD)
         .then(()=>{
             app.listen(3030)
             console.log("Conectou ao banco! porta 3030r")
